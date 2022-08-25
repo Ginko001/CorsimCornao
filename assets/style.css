@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+table {
+    display: table;
+    margin: 0 auto;
+    display: table;
+    width: 300px;
+    border: 1px solid black;
+}
+th {
+    background-color: #ccc;
+}
+td, th {
+    border: 1px solid black;
+}
+td {
+    text-align: left;
+    padding: 10px;
+}
+tr:nth-child(odd) {
+    background-color: #a1dd12;
+}
